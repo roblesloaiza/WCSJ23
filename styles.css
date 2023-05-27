@@ -7,11 +7,12 @@ Brayan Brenes
 
 */
 
-/* --------------------------------------------- Estilos Generales ----- */
+/* ------------------- Estilos Generales --------------- */
 
 h1, h2, h3, h4 {
-	font-family: 'Unbounded', cursive, !important;
-	font-weight: 800 !important;
+	font-family: 'Unbounded', cursive !important;
+	font-weight: 900 !important;
+
 }
 
 h5, h6 {
