@@ -14,14 +14,16 @@ body {
 }
 
 h1, h2, h3, h4 {
-	font-family: 'Unbounded', sans-serif !important;
-  	text-transform: uppercase;
+	font-family: 'Unbounded', cursive, !important;
 	font-weight: 800 !important;
 }
 
 h5, h6 {
-	font-family: 'Unbounded', sans-serif;
+	font-family: 'Unbounded', cursive;
 	font-weight: 900;
 }
+
+
+
 
 
