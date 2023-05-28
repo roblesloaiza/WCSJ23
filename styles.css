@@ -12,6 +12,7 @@ Brayan Brenes
 body {
 	font-family: 'Albert Sans', sans-serif;
 	font-size: .95em;
+    background: linear-gradient(#040c2e 0%, #017bd9 100%);
 }
 
 
@@ -30,6 +31,13 @@ p {
 	font-family: 'Albert Sans', sans-serif;
 	font-size: 16px;
 }
+
+
+width: 1920px;
+height: 12px;
+background: linear-gradient(#0a84ff 0%, #bf5af2 100%);
+
+
 
 
 
