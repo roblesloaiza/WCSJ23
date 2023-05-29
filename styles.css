@@ -32,16 +32,13 @@ p {
 	font-size: 16px;
 }
 
-
+/* ------------------- Pagina principal --------------- */
 .main-menu{
     height: 150px;
+    width: 100%;
 }
 
-.is-style-wide{
-  height: 12px;
-  background: linear-gradient(#0a84ff 0%, #bf5af2 100%);
-  
-}
+
 
 
 
