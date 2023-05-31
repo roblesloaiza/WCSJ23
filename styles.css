@@ -32,6 +32,18 @@ p {
 	font-size: 16px;
 }
 
+
+
+/**---------Headers---------**/
+
+/*--Small Header----**/
+
+.small-header{
+    height: 250px;
+}
+
+
+
 /* ------------------- Pagina principal --------------- */
 .main-menu{
     height: 150px;
