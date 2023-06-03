@@ -38,34 +38,23 @@ p {
 
 /*--Small Header----**/
 
-.small-header{
-    height: 250px;
-    width: 100%;
-}
 
-.page-titles{
-    width: 1920px;
-    height: 150px;
-    background: linear-gradient(#0a84ff 0%, #bf5af2 100%);
 
-}
 
 
 
 /* ------------------- Pagina principal --------------- */
-.main-menu{
-    height: 150px;
-    width: 100%;
-}
+
 
 /* ------------------- Footer --------------- */
 
+.rainbow-line{
 
-footer{
-    background-color: #F0F0F0 !important;
-    
-    
+border-color: linear-gradient(#0a84ff 0%, #bf5af2 100%);
+
 }
+
+
 
 
 
