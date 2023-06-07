@@ -4,6 +4,8 @@
 
 Rita Robles Loaiza
 Brayan Brenes
+Steven Bansbach
+Jesus Lozano
 
 */
 
@@ -38,21 +40,277 @@ p {
 
 /*--Small Header----**/
 
-
-
-
-
-
-/* ------------------- Pagina principal --------------- */
-
-
-/* ------------------- Footer --------------- */
-
-.rainbow-line{
-
-border-color: linear-gradient(#0a84ff 0%, #bf5af2 100%);
-
+.entry-content {
+	margin-top: -10px;
+	margin-bottom: -50px;
 }
+
+nav {
+	z-index: 1;
+}
+
+
+
+/*--Tickets----**/
+
+
+
+.tix-tickets-list {
+	text-align: left;
+	border-spacing: 0;
+}
+
+.tix-js {
+	font-size: 20px;
+	display: flex !important;
+	justify-content: center;
+	padding: 100px;
+	color: black;
+}
+
+.tix-js input[type=submit],
+.tix-checkout-button {
+	text-transform: uppercase;
+	font-weight: 800 !important;
+	color: #ffffff;
+	background: #0C84FF;
+	font-size: 16px;
+	padding: 15px 23px;
+	margin-left: 10px;
+	border-radius: 0;
+	border-width: 1px;
+	border-color: #0C84FF;
+	border-style: solid;
+}
+
+#tix_checkout_form {
+	font-size: 18px;
+	font-family: 'Albert Sans', sans-serif;
+	color: black;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.tix-column-description, .tix-column-remaining, .tix-column-price, .tix-column-quantity {
+	padding-right: 100px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#tix-coupon-link {
+	font-size: 15px;
+}
+
+.tix-column-description, .tix-column-remaining {
+	font-weight: bold;
+}
+
+.tix-column-remaining {
+	display: none;
+}
+
+/* Estilos de la tabla tickets */
+.tix_tickets_table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.tix_tickets_table th,
+.tix_tickets_table td {
+	padding: 10px;
+}
+
+.tix_tickets_table th {
+	text-align: left;
+	background-color: #f2f2f2;
+}
+
+.tix_tickets_table td {
+	border-bottom: 1px solid #ddd;
+}
+
+/* Estilos específicos de la tabla de resumen de pedido */
+.tix-order-summary {
+	margin-bottom: 20px;
+}
+
+.tix-order-summary th,
+.tix-order-summary td {
+	font-size: 14px;
+}
+
+.tix-order-summary strong {
+	color: #555;
+}
+
+.tix-order-summary .tix-column-description {
+	width: 50%;
+}
+
+.tix-order-summary .tix-column-per-ticket,
+.tix-order-summary .tix-column-quantity,
+.tix-order-summary .tix-column-price {
+	width: 15%;
+}
+
+/* Versión responsive */
+@media (max-width: 768px) {
+	.tix-order-summary th,
+																																																																  .tix-order-summary td {
+		font-size: 12px;
+	}
+	
+	.tix-js {
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 100px;
+		color: black;
+	}
+}
+
+/* Estilos generales */
+#tix {
+	font-family: 'Albert Sans', sans-serif;
+	font-size: 14px;
+}
+
+#tix_checkout_form {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+.tix-submit {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+.tix-checkout-button {
+	margin-left: auto;
+}
+
+/* Versión responsive */
+@media (max-width: 768px) {
+	#tix_checkout_form {
+		padding: 0 10px;
+	}
+}
+
+/* Estilos para la tabla */
+.tix-ticket-form {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 600px;
+	border-collapse: collapse;
+}
+
+/* Estilos para las celdas de la tabla */
+.tix-ticket-form td, .tix-ticket-form th {
+	padding: 10px;
+	text-align: left;
+	font-size: 16px;
+	color: #000;
+}
+
+.tix-ticket-form thead th {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/* Estilos para el enlace de editar información */
+.tix-ticket-form a {
+	color: #0a84ff;
+	text-decoration: none;
+}
+
+.tix-ticket-form a:hover {
+	text-decoration: underline;
+}
+
+/* Estilos para los párrafos adicionales */
+.tix-js p {
+	margin: 20px 0;
+	font-size: 16px;
+	color: #000;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 600px) {
+	.tix-ticket-form {
+		max-width: 100%;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+	.tix-ticket-form td, .tix-ticket-form th {
+		display: block;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	
+	.tix-ticket-form td:last-child {
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.tix-ticket-form td, .tix-ticket-form th {
+		font-size: 14px;
+	}
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+	.tix-column-description, .tix-column-remaining, .tix-column-price, .tix-column-quantity {
+		padding-right: 10px;
+		padding-top: 10px;
+		text-align: left;
+	}
+	
+	#tix-coupon-link {
+		font-size: 12px;
+	}
+	
+	.tix-tickets-list {
+		text-align: center;
+	}
+	
+	.tix-js {
+		font-size: 16px;
+		display: block !important;
+	}
+	
+	.tix-js input[type=submit],
+																																																																						  .tix-checkout-button {
+		font-size: 14px;
+		padding: 10px 18px;
+		margin: 10px auto;
+	}
+	
+	#tix_checkout_form {
+		font-size: 16px;
+		padding: 30px 10px;
+	}
+}
+
 
 
 
