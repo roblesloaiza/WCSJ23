@@ -38,8 +38,6 @@ p {
 
 /**---------Headers---------**/
 
-/*--Small Header----**/
-
 .entry-content {
 	margin-top: -10px;
 	margin-bottom: -50px;
@@ -49,11 +47,7 @@ nav {
 	z-index: 1;
 }
 
-
-
-/*--Tickets----**/
-
-
+/**---------Tickets - Checkout---------**/
 
 .tix-tickets-list {
 	text-align: left;
@@ -109,7 +103,7 @@ nav {
 	display: none;
 }
 
-/* Estilos de la tabla tickets */
+/* Estilos de la tabla */
 .tix_tickets_table {
 	width: 100%;
 	border-collapse: collapse;
@@ -310,17 +304,3 @@ select {
 		padding: 30px 10px;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
