@@ -41,6 +41,7 @@ p {
 .entry-content {
 	margin-top: -10px;
 	margin-bottom: -50px;
+    z-index: 2;
 }
 
 nav {
