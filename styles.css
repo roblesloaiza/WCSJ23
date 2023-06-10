@@ -331,8 +331,8 @@ select {
 
 /*Asistentes*/
 .tix-attendee-list .avatar {
-	height: 120px !important;
-	width: 120px !important;
+	height: 80px !important;
+	width: 80px !important;
 	border-radius: 50%;
 	border: 5px solid #0a84ff;
 	margin-right: 12px;
