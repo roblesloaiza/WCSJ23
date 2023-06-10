@@ -331,12 +331,12 @@ select {
 
 /*Asistentes*/
 .tix-attendee-list .avatar {
-	height: 80px !important;
-	width: 80px !important;
+	height: 120px !important;
+	width: 120px !important;
 	border-radius: 50%;
 	border: 5px solid #0a84ff;
-	background-image: radial-gradient(circle at center, #0a84ff, #bf5af2);
-	margin-right: 10px;
+	margin-right: 12px;
+	box-shadow: 0 0 5px 5px rgba(255, 55, 95, 0.3), 0 0 7px 7px rgba(255, 55, 95, 0.2), 0 0 9px 9px rgba(255, 55, 95, 0.1);
 }
 
 .tix-attendee-name {
