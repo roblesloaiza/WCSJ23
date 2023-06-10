@@ -388,3 +388,17 @@ select {
 		flex-basis: 100%;
 	}
 }
+
+/*Responsive de titulos*/
+
+@media (max-width: 768px) {
+  .h2-small {
+    font-size: 40px !important; /* Tamaño para pantallas medianas */
+  }
+}
+
+@media (max-width: 480px) {
+  .h2-small {
+    font-size: 20px !important; /* Tamaño para pantallas más pequeñas */
+  }
+}
