@@ -305,3 +305,86 @@ select {
 		padding: 30px 10px;
 	}
 }
+
+/*Animacion titulo*/
+@keyframes moveUpDown {
+	0% {
+		transform: translateY(0);
+	}
+	
+	50% {
+		transform: translateY(-10px);
+	}
+	
+	100% {
+		transform: translateY(0);
+	}
+}
+
+.wc-title img {
+	animation: moveUpDown 2s ease-in-out infinite;
+}
+
+.wp-block-post-content {
+	color: black !important;
+}
+
+/*Asistentes*/
+.tix-attendee-list .avatar {
+	height: 80px !important;
+	width: 80px !important;
+	border-radius: 50%;
+	border: 5px solid #0a84ff;
+	background-image: radial-gradient(circle at center, #0a84ff, #bf5af2);
+	margin-right: 10px;
+}
+
+.tix-attendee-name {
+	text-align: left;
+	padding-top: 20px;
+	font-family: 'Albert Sans', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #0a84ff !important;
+}
+
+.tix-attendee-twitter {
+	text-align: left;
+	margin-left: 5px;
+	margin-top: 5px;
+	color: #ff9f0a !important;
+}
+
+.tix-attendee-list, .tix-columns-4 li {
+	margin-top: 50px !important;
+}
+
+.tix-attendee-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.tix-attendee-list li {
+	flex-basis: 25%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+@media (max-width: 1200px) {
+	.tix-attendee-list li {
+		flex-basis: 33.33%;
+	}
+}
+
+@media (max-width: 768px) {
+	.tix-attendee-list li {
+		flex-basis: 50%;
+	}
+}
+
+@media (max-width: 480px) {
+	.tix-attendee-list li {
+		flex-basis: 100%;
+	}
+}
