@@ -100,9 +100,9 @@ nav {
 	font-weight: bold;
 }
 
-.tix-column-remaining {
+/**--.tix-column-remaining {
 	display: none;
-}
+}--**/
 
 /* Estilos de la tabla */
 .tix_tickets_table {
